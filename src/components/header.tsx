@@ -31,7 +31,7 @@ export const Header = () => {
                     )
                   }
                   key={route.href}
-                  to={route.href}
+                  to={route.href === "/about" ? "/aboutus" : route.href}
                 >
                   {route.label}
                 </NavLink>
