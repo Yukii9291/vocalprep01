@@ -61,7 +61,9 @@ export const Footer = () => {
 
           {/* Second Column: About Us */}
           <div>
-            <h3 className="font-bold text-lg mb-4">About Us</h3>
+            <Link to="/aboutus" className="font-bold text-lg mb-4 hover:underline text-gray-100 block">
+              About Us
+            </Link>
             <p>
               We are committed to helping you unlock your full potential with
               AI-powered tools. Our platform offers a wide range of resources to

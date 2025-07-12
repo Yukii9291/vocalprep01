@@ -9,7 +9,7 @@ export const MainRoutes = [
   },
   {
     label: "About Us",
-    href: "/about",
+    href: "/aboutus",
   },
   {
     label: "Services",
